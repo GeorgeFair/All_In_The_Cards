@@ -1,8 +1,16 @@
-.flip-card-front {
+.flip_card_front {
   background-color: #bbb;
 }
 
-.flip-card-front img {
+.flip_card_front img {
   width: 100%;
   height: 100%;
+}
+
+.flip_card_back {
+    background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+  text-align: center;
+  padding: 10px;
 }
