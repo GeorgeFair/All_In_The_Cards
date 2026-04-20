@@ -35,15 +35,6 @@ body {
   border-color:#C4C7DE;
 }
 
-.card_img{
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 40px;
-  height: 40px;  
-  border-radius: 10px;
-}
-
 .button {
   background-color: white;
   color: #5481E5;
