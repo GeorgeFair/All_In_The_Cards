@@ -1,6 +1,106 @@
-.container {
-  display: grid;
-  grid-template-columns: 1fr;
+body {
+  font-family: 'Times New Roman', sans-serif;
+  margin: 0;
+  background-color: #C0CCE5;
+}
+
+.nav_bar {
+  display: flex;
   gap: 10px;
-  height: 100vh;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+header {
+  background: #5481E5;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.card_container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #5481E5;
+  color: white;
+  border: 2px solid white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 220px;
+  text-align: center;
+  position: relative;
+
+}
+
+.card:hover {
+  border-color:#C4C7DE;
+}
+
+.card_link {
+  color: #5481E5;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: auto;
+
+}
+
+.card_link:hover {
+  background-color: #C0CCE5;
+  color: white;
+}
+
+.card_img{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;  
+  border-radius: 10px;
+}
+
+.home_button {
+  background-color: white;
+  color: #5481E5;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.home_button:hover {
+  background-color: #C0CCE5;
+  color: white;
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+    .card_container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card {
+      width: 100%;
+    }
+
+    header {
+      display: flex;
+      flex-direction: column;
+    }
+
+    header h1 {
+      font-size: 16px;
+  }
 }
