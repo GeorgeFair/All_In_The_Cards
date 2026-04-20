@@ -38,22 +38,6 @@ body {
   border-color:#C4C7DE;
 }
 
-.card_link {
-  color: #5481E5;
-  text-decoration: none;
-  font-weight: bold;
-  background-color: white;
-  padding: 10px 15px;
-  border-radius: 5px;
-  margin-top: auto;
-
-}
-
-.card_link:hover {
-  background-color: #C0CCE5;
-  color: white;
-}
-
 .card_img{
   position: absolute;
   top: 10px;
