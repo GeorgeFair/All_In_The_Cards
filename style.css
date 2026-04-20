@@ -31,10 +31,6 @@ body {
   overflow: hidden;
 }
 
-.card:hover {
-  border-color:#C4C7DE;
-}
-
 .button {
   background-color: white;
   color: #5481E5;
